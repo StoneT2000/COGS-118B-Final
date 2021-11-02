@@ -7,3 +7,9 @@ Motivation: More deeply understand why our brain's visual neural representations
 Related work:  https://www.pnas.org/content/118/3/e2014196118.short
 PCA
 Basic MLPs
+
+Methods: 
+
+1. Download data
+2. Choose a few embedding methods, train them via unsupervised learning
+3. Use these embeddings as inputs to a separate model (which could be a neural net, or KNN or wtv) and look at the performance
