@@ -18,3 +18,4 @@ Methods:
 Extensions and Improvements
 1. Using other models that learn embeddings via unsupervised learning
 2. Neural representation based loss (encourage embeddings to more closely match neural representations)
+3. Using more biologically grounded learning rules (Hebbian learning, RL)
