@@ -1,4 +1,4 @@
-name: doubledescent
+name: cogs118b
 channels:
   - conda-forge
   - pytorch
