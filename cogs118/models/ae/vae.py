@@ -3,7 +3,6 @@ Code adapted from https://github.com/AntixK/PyTorch-VAE
 """
 
 import torch
-from models import BaseVAE
 from torch import nn
 from torch.nn import functional as F
 from typing import List
