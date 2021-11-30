@@ -67,7 +67,7 @@ class AE(nn.Module):
                             nn.LeakyReLU(),
                             nn.Conv2d(self.hidden_dims[-1], out_channels= 3,
                                       kernel_size= 3, padding= 1),
-                            nn.Sigmoid())
+                            nn.Tanh())
 
     def encode(self, input) -> List:
         result = self.encoder(input)
