@@ -81,7 +81,7 @@ class AE(nn.Module):
         return result
     def forward(self, input, **kwargs) -> List:
         x = self.encode(input)
-        return self.decode(x)
+        return [self.decode(x), input]
 
     def loss_function(self,
                       *args,
