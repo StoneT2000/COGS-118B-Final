@@ -13,7 +13,7 @@ To get the tiny image dataset, download and unzip
 
 ```
 wget http://cs231n.stanford.edu/tiny-imagenet-200.zip
-unzip -q http://cs231n.stanford.edu/tiny-imagenet-200.zip
+unzip -q tiny-imagenet-200.zip
 ```
 
-Run the script in notebooks/stone/data.ipynb
+Run the script in notebooks/stone/data.ipynb to then process the data
